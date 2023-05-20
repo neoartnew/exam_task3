@@ -1,7 +1,7 @@
 
 
 class Tomato:
-    states = {'Семечка': 0, 'Цветение': 1, 'Зеленый': 2, 'Красный': 3}
+    states = {'росток': 0, 'Цветение': 1, 'Зеленый': 2, 'Красный': 3}
 
     def __init__(self, index):
         self._index = index
@@ -65,7 +65,7 @@ Gardener.knowledge_base()
 
 # 2. Создайте объекты классов TomatoBush и Gardener
 bush = TomatoBush(3)
-gardener = Gardener('Artem', bush)
+gardener = Gardener('Artur', bush)
 
 # 3. Используя объект класса Gardener, поухаживайте за кустом с помидорами
 gardener.work()
